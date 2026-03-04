@@ -5,7 +5,7 @@ on:
     branches: [ "main" ]
 
 env:
-  IMAGE_NAME: <enter-docker-image-name-here>   # Format: <dockerhub_account>/<repo>
+  IMAGE_NAME: joelsmith10/lesson8-cicd-demo   # Format: <dockerhub_account>/<repo>
   IMAGE_TAG: ${{ github.sha }}
 
 jobs:
